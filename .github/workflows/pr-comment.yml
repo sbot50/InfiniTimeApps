@@ -5,7 +5,7 @@ name: PR comment
 
 on:
   pull_request_target:
-    branches: [ main ]
+    branches: [ main, minesweeper, calculator ]
     paths-ignore:
       - 'doc/**'
       - '**.md'
